@@ -56,6 +56,9 @@ var search = function() {
                 apiKey: 'trilogy',
                 title: response.name,
             }
+            if ( response.name === '') {
+                console.log('If you have not watched "Mr. Nobody," then you should at <http://www.imdb.com/title/tt0485947/>. It is on Netflix');
+            }
             omdb.get(params, function(err, data){
                     console.log(
                     `
