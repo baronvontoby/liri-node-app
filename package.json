@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "a language recognition application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baronvontoby/liri-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baronvontoby/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/baronvontoby/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.3.1",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1",
+    "omdb": "^0.8.0",
+    "omdb-client": "^2.0.0",
+    "spotify": "^0.3.0"
+  }
+}
